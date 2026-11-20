@@ -65,7 +65,7 @@ def ingest_region(
             zarr_store = os.getenv("ZARR_STORAGE_PATH")
         if image_store is None:
             image_store = os.getenv("IMAGE_STORE_PATH")
-        input_path = f"{root_path}/{exp_name}/out/{reg_name}"
+        input_path = f"{root_path}/output/{exp_name}/{reg_name}"
         zarr_path = f"{zarr_store}/{exp_name}/{reg_name}"
 
         sdata = read_merscope(
