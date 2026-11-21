@@ -1,0 +1,12 @@
+{
+    "volume_min": 100,
+    "volume_max": 3000,
+    "n_count_min": 20,
+    "n_count_max": 1000,
+    "n_gene_min": 5,
+    "n_gene_max": 2000,
+    "n_blank_min": 0,
+    "n_blank_max": 5,
+    "ncpv_min_quantile": 0.02,
+    "ncpv_max_quantile": 0.98 
+}

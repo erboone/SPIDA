@@ -25,3 +25,6 @@ pyproject_bp.toml
 
 # build file
 build/
+
+# vscode
+.vscode
